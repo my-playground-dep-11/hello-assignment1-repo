@@ -20,14 +20,12 @@ public class Demo6C {
         String a = String.format("-".repeat(15));
         String b = String.format("-".repeat(12));
         
-        //System.out.printf("%1$s%2$s+----------------+--------------+---------------+%3$s\n", BACK_GROUND_COLOR, YELLOW_COLOR, RESET);
+        
         System.out.printf("%1$s%2$s+%4$s+%5$s+%5$s+%3$s\n", BACK_GROUND_COLOR, YELLOW_COLOR, RESET, a, b);
         System.out.printf("%1$s%2$s| %3$s%5$-14s%2$s| %3$s%6$-11s%2$s| %3$s%7$-11s%2$s|%4$s\n", BACK_GROUND_COLOR, YELLOW_COLOR, COLOR1, RESET, str1, str2, str3);
-        //System.out.printf("%1$s%2$s+----------------+--------------+---------------+%3$s\n", BACK_GROUND_COLOR, YELLOW_COLOR, RESET);
         System.out.printf("%1$s%2$s+%4$s+%5$s+%5$s+%3$s\n", BACK_GROUND_COLOR, YELLOW_COLOR, RESET, a, b);
         System.out.printf("%1$s%2$s| %4$s%1$s%5$-14s%2$s| %4$s%1$s%6$-11s%2$s| %3$s%7$-,11d%2$s|%4$s\n", BACK_GROUND_COLOR, YELLOW_COLOR, PINK_COLOR, RESET, str4, str5, int1);
         System.out.printf("%1$s%2$s| %3$s%6$s%5$s%1$s %7$-10s%2$s| %3$s%6$s%5$s%1$s %7$-7s%2$s| %4$s%8$-,11d%2$s|%5$s\n", BACK_GROUND_COLOR, YELLOW_COLOR, GREEN_COLOR, PINK_COLOR, RESET, str6, str7, int2);
-        //System.out.printf("%1$s%2$s+----------------+--------------+---------------+%3$s\n", BACK_GROUND_COLOR, YELLOW_COLOR, RESET);
         System.out.printf("%1$s%2$s+%4$s+%5$s+%5$s+%3$s\n", BACK_GROUND_COLOR, YELLOW_COLOR, RESET, a, b);
 
 
