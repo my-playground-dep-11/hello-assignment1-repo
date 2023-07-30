@@ -15,13 +15,10 @@ public class Demo6B {
         String b = String.format("-".repeat(5));
 
         System.out.printf("%2$s%1$s+%4$s+%5$s+%3$s\n", COLOR1, COLOR4, RESET, a, b);
-        //System.out.printf("%2$s%1$s+-------------------------+-----------+%3$s\n", COLOR1, COLOR4, RESET);
         System.out.printf("%6$s%3$s| %4$s%1$-19s%3$s| %4$s%2$-4s%3$s|%5$s\n", str1, str2, COLOR1, COLOR2, RESET, COLOR4);
-        //System.out.printf("%2$s%1$s+-------------------------+-----------+%3$s\n", COLOR1, COLOR4, RESET);
         System.out.printf("%2$s%1$s+%4$s+%5$s+%3$s\n", COLOR1, COLOR4, RESET, a, b);
         System.out.printf("%6$s%3$s| %5$s%6$s%1$-19s%3$s|  %4$s%2$-3s%3$s|%5$s\n", str3, str5, COLOR1, COLOR3, RESET, COLOR4);
         System.out.printf("%6$s%3$s| %5$s%6$s%1$-19s%3$s|  %4$s%2$-3s%3$s|%5$s\n", str4, str6, COLOR1, COLOR3, RESET, COLOR4);
-        //System.out.printf("%2$s%1$s+-------------------------+-----------+\n", COLOR1, COLOR4, RESET);
         System.out.printf("%2$s%1$s+%4$s+%5$s+%3$s\n", COLOR1, COLOR4, RESET, a, b);
     
 
